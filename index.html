@@ -1,12 +1,247 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <link
+      rel="apple-touch-icon"
+      sizes="57x57"
+      href="/img/favicon.ico/apple-icon-57x57.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="60x60"
+      href="/img/favicon.ico/apple-icon-60x60.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="72x72"
+      href="/img/favicon.ico/apple-icon-72x72.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="76x76"
+      href="/img/favicon.ico/apple-icon-76x76.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="114x114"
+      href="/img/favicon.ico/apple-icon-114x114.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="120x120"
+      href="/img/favicon.ico/apple-icon-120x120.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="144x144"
+      href="/img/favicon.ico/apple-icon-144x144.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="152x152"
+      href="/img/favicon.ico/apple-icon-152x152.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="/img/favicon.ico/apple-icon-180x180.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="192x192"
+      href="/img/favicon.ico/android-icon-192x192.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="/img/favicon.ico/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="96x96"
+      href="/img/favicon.ico/favicon-96x96.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="/img/favicon.ico/favicon-16x16.png"
+    />
+    <link rel="manifest" href="/img/favicon.ico/manifest.json" />
+    <meta name="msapplication-TileColor" content="#ffffff" />
+    <meta
+      name="msapplication-TileImage"
+      content="/img/favicon.ico/ms-icon-144x144.png"
+    />
+    <meta name="theme-color" content="#ffffff" />
+
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="js/swiper-bundle.css" />
+    <link rel="stylesheet" href="/style.css" />
+
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <script src="js/web-components.js"></script>
+    <script src="navbar.js" defer></script>
+    <script src="footer.js" defer></script>
+
+    <title>RopeAccess.tv</title>
   </head>
   <body>
-    Ropeaccess.tv
+    <navbar-component></navbar-component>
+
+    <div class="container--main">
+      <img class="container--bg-jumbotron"/>
+      <div class="container--left">
+        <h1 class="title" style="font-size: 5rem">RopeAccess<span style="color:red">.</span>tv</h1>
+        <div class="container--social">
+          <div class="social--col">
+            <div>Instagram</div>
+            <a
+              href="https://www.instagram.com/ropeaccess_tv"
+              target="_blank"
+            >
+              <img class="social--img" src="/img/icon/icon-insta.svg" />
+            </a>
+          </div>
+
+          <div class="social--col">
+            <div>Facebook</div>
+            <a
+              href="https://www.facebook.com/ropeaccess.tv/"
+              target="_blank"
+            >
+              <img
+                class="social--img"
+                style="width: 43px"
+                src="/img/icon/icon-face.svg"
+              />
+            </a>
+          </div>
+
+          <div class="social--col">
+            <div>Email</div>
+            <a href="mailto:info@ropeaccess.tv" target="_blank">
+              <img class="social--img" src="/img/icon/icon-mail.svg" />
+            </a>
+          </div>
+        </div>
+
+      </div>
+      
+    </div>
+
+    <!-- PRODUCTS -->
+
+    <h1 id="products" class="title" style="margin: 2rem">Products</h1>
+
+    <div class="container" id="section-1">
+      <img
+        class="container--bg"
+        
+        style="opacity: 0.2"
+      />
+
+      <!-- Swiper -->
+      <div class="container--left">
+        <div class="swiper-container">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <img
+                class="container--img swiper-lazy"
+                data-src="img/window-cleaning-sucker-01.jpg"
+              />
+            </div>
+            <div class="swiper-slide">
+              <img
+                class="container--img swiper-lazy"
+                data-src="img/window-cleaning-sucker-02.jpg"
+              />
+            </div>
+            <div class="swiper-slide">
+              <img
+                class="container--img swiper-lazy"
+                data-src="img/window-cleaning-sucker-03.jpg"
+              />
+            </div>
+            <div class="swiper-slide">
+              <img
+                class="container--img swiper-lazy"
+                data-src="img/window-cleaning-sucker-04.jpg"
+              />
+            </div>
+             <div class="swiper-slide">
+              <img
+                class="container--img swiper-lazy"
+                data-src="img/window-cleaning-sucker-05.jpg"
+              />
+            </div>
+             <div class="swiper-slide">
+              <img
+                class="container--img swiper-lazy"
+                data-src="img/window-cleaning-sucker-06.jpg"
+              />
+            </div>
+          </div>
+
+          <div class="swiper-button-prev"></div>
+          <div class="swiper-button-next"></div>
+          <div class="swiper-pagination"></div>
+        </div>
+      </div>
+
+      <div class="container--right">
+        <h1 class="title" style="font-size: 3rem">Window Cleaning Sucker</h1>
+        <p>
+          Window Cleaning Sucker. Specialized tool recommended by www.ropeaccess.tv
+        </p>
+        
+
+        <a
+          target="_blank"
+          class="button--buy"
+          style="margin: 0"
+          href="mailto:info@ropeaccess.tv"
+        >
+          <span>CONTACT TO BUY</span>
+          <img src="/img/icon/icon-window.svg" class="button--buy-icon" />
+        </a>
+      
+    </div>
+    </div>
+
+    <div class="divider"></div>
+
+    <footer-component></footer-component>
+
+    <!--SCRIPTS-->
+    <script
+      id="cookiebanner"
+      src="js/cookie.js"
+      data-z-index="999"
+      data-font-size="18px"
+      data-padding="25px"
+      data-text-align="left"
+      data-linkmsg=""
+      data-moreinfo="privacy-policy.html"
+      data-message="
+           This site uses cookies. You can find out the details by consulting our <a href='privacy-policy.html'> privacy policy </a>.
+            By continuing to browse, you accept the use of cookies; otherwise, you can leave the website. "
+            
+    ></script>
+
+    <script src="js/script.js" async></script>
+    <script src="js/swiper-bundle.js"></script>
+
+    <!-- END SCRIPTS -->
   </body>
 </html>
