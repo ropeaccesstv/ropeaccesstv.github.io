@@ -8,9 +8,8 @@ class Navbar extends HTMLElement {
     
         <!--Navbar-->
         <div class="navbar">
-            <div class="navbar--logo">
-                RopeAccess<span style="color:red">.</span>tv
-            </div>
+        <img src="img/logo-small.png" class="logo-navbar" alt="logo-navbar" />
+        
             <div class="navbar--menu">
                 <a href="index.html#products">
                     Products

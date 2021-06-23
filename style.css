@@ -368,6 +368,16 @@ option {
   text-align: center;
 }
 
+.logo {
+  width: 70vw;
+  margin: 2rem;
+}
+
+
+.logo-navbar {
+  width: 70px;
+  margin: .5rem;
+}
 .button {
   background-color: var(--main-color);
   border: none;
