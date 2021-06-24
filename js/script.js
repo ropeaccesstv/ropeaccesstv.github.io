@@ -1,27 +1,3 @@
-//Select-> go to link
-function handleSelect(elm) {
-  window.location = elm.value;
-}
-
-// Instructions
-let instructionsButton = document.getElementsByClassName(
-  "instructions--button"
-);
-let instructionsClose = document.getElementsByClassName("instructions--close");
-let a;
-
-for (a = 0; a < instructionsButton.length; a++) {
-  instructionsButton[a].addEventListener("click", function () {
-    this.nextElementSibling.classList.toggle("instructions--modal");
-  });
-}
-
-for (b = 0; b < instructionsClose.length; b++) {
-  instructionsClose[b].addEventListener("click", function () {
-    this.parentElement.classList.toggle("instructions--modal");
-  });
-}
-
 //Collapsible
 var coll = document.getElementsByClassName("collapsible");
 var i;
@@ -47,8 +23,7 @@ function toggleDropdownMenu() {
 
 // SwiperJs
 const swiper = new Swiper(".swiper-container", {
-  preloadImages: false,
-  lazy: true,
+  preloadImages: true,
   direction: "horizontal",
   loop: true,
   spaceBetween: 30,
