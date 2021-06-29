@@ -14,6 +14,9 @@ class Navbar extends HTMLElement {
                 <a href="index.html#products">
                     Products
                 </a>
+                <a href="blog.html">
+                    Blog
+                </a>
 
             </div>
     
@@ -28,6 +31,9 @@ class Navbar extends HTMLElement {
                 class="navbar--menu-dropdown navbar--menu-is-visible">
                     <a href="index.html#products">
                         Products
+                    </a>
+                    <a href="blog.html">
+                        Blog
                     </a>
             </div>
     
