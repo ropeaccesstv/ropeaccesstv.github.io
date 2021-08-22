@@ -8,8 +8,16 @@ class Navbar extends HTMLElement {
     
         <!--Navbar-->
         <div class="navbar">
+
+        
         <img src="img/logo-small.png" class="logo-navbar" alt="logo-navbar" />
         
+
+        <div id="lang" style="margin-top: .5rem;margin-right: 1rem;">
+            LANGUAGE
+            <div id="google_translate_element"></div>
+        </div>
+
             <div class="navbar--menu">
                 <a href="index.html#products">
                     Products
@@ -36,6 +44,8 @@ class Navbar extends HTMLElement {
                         Blog
                     </a>
             </div>
+
+            
     
         </div>
     <!--End Navbar-->
