@@ -5,7 +5,12 @@
   --swiper-pagination-color: black;
 }
 
-.goog-logo-link {
+.translated-ltr {
+  margin: -40px 0;
+}
+
+.goog-logo-link,
+.goog-te-banner-frame {
   display: none !important;
 }
 
